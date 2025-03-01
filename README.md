@@ -28,8 +28,6 @@ Este proyecto es una **aplicación web para administrar y gestionar notas**, des
 │   │   ├── NoteCard.jsx
 │   │   ├── NoteForm.jsx
 │   │   └── NotesList.jsx
-│   ├── data/
-│   │   └── notes.js
 │   ├── App.css
 │   ├── App.jsx
 │   ├── index.jsx
