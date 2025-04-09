@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import NotesList from "./components/NotesList";
 import NoteForm from "./components/NoteForm";
+import CamInput from "./components/CamInput";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
         <div className="container py-5">
             <h1 className="text-center">📝 Notas</h1>
             <NoteForm addNote={addNote} />
+            {/* <CamInput /> */}
             <NotesList notes={notes} deleteNote={deleteNote} />
         </div>
     </div>
